@@ -1,0 +1,11 @@
+image: kuberlab/mnist-ui:latest
+mnist_model: mnist
+mnist_mlapp: mnist-sm
+styles_model: styles
+styles_mlapp: styles-transfer
+serviceType: ClusterIP
+
+resources:
+  requests:
+    memory: 64Mi
+    cpu: 50m

@@ -1,0 +1,9 @@
+name: mnist-ui
+version: 1.0.0
+description: A simple web-based UI that allows to draw some images in browser window and send them as PNG files.
+keywords:
+- web
+- draw
+sources:
+- https://github.com/kuberlab/mnist-ui
+engine: gotpl
